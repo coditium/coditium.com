@@ -7,11 +7,34 @@
     <title>coditium: получи престижную профессию, научись программировать с нуля</title>
 </head>
 <style>
-    body { padding: 50px; font-family: Arial, sans-serif; }
+    html { min-height: 100%; }
+    body {
+        padding: 50px;
+        background: linear-gradient(135deg, #aa2de1 0%,#ff6d00 100%);
+        font-family: Arial, sans-serif;
+    }
     h1, h2 { font-weight: normal; }
+    a { text-decoration: none; }
+    .logo { font-size: 60px; color: #fff; }
+    .logo:before {
+        content: "#;=>";
+        
+        float: left;
+        width: 1.5em;
+        margin-top: 13px;
+        margin-right: .1em;
+        
+        font-family: monospace;
+        font-size: 50%;
+        line-height: .9;
+
+        color: #fff;
+        word-wrap: break-word;
+        user-select: none;
+    }
 </style>
 <body>
-    <h1>coditium</h1>
+    <h1 class="logo">coditium</h1>
     <h2>Получи престижную профессию</h2>
     <div>Научись программировать с нуля</div>
     <ul>
